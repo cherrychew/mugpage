@@ -1,0 +1,158 @@
+
+.first {
+    background-color: #1F2937;
+}
+
+.header,
+.intro,
+.bluebox {
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    size: 24px;
+    color: #f9faf8;
+    text-align: left;
+    text-decoration: bold;
+}
+
+.links {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.introtxt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    text-align: left;
+}
+
+h1 {
+    size: 48px;
+    color: #f9faf8;
+    text-decoration: bold;
+}
+
+.links,
+p {
+    size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    text-decoration: bold;
+}
+
+.introimg {
+    max-width: calc(50% - 20px);
+}
+
+.second,
+.fourth {
+    background-color: #f9faf8;
+}
+
+h2 {
+    text-align: center;
+    size: 36px;
+    text-decoration: bold;
+    color: #1F2937;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 60%;
+    max-width: 700px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.subtxtimg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 4px;
+    border-color: #3882f6;
+}
+
+.third {
+    background-color: #e5e7eb;
+}
+
+.fullquote {
+    max-width: 600px;
+    width: 50%;
+    margin: auto;
+}
+
+.quote {
+    size: 36px;
+    text-decoration: light italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+.name {
+    text-align: right;
+    size: 16px;
+    text-decoration: bold;
+    color: #1F2937;
+}
+
+.fourth {
+
+}
+
+.bluebox {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
